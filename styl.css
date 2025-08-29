@@ -1,0 +1,49 @@
+/* Workers Section */
+body{
+    background-color: #8b5e3c;
+}
+.workers {
+  padding: 40px;
+  text-align: center;
+}
+
+.workers h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #fff; /* white text over background */
+}
+
+.worker-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
